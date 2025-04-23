@@ -6,9 +6,21 @@
   <base href="https://VictorLeand.github.io/Gerdi-Distribuciones/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="logo.png">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <link rel="stylesheet" href="styles-5INURTSO.css"></head>
 <body>
+  <nav class="sidebar" [class.open]="menuOpen">
+    <div class="logo-container">
+      <link href="logo.png" class="logo">
+      <button class="menu-toggle" (click)="menuOpen = !menuOpen">
+        ☰
+      </button>
+    </div>
+    <ul class="menu">
+      <li><a href="#">Inicio</a></li>
+      <li><a href="#">Productos</a></li>
+      <li><a href="#">Contacto</a></li>
+    </ul>
+  </nav>
   <app-root></app-root>
-<script src="polyfills-FFHMD2TL.js" type="module"></script><script src="main-KDLK4KUB.js" type="module"></script></body>
+<script src="polyfills-FFHMD2TL.js" type="module"></script><script src="main-QLCIXQXY.js" type="module"></script></body>
 </html>
